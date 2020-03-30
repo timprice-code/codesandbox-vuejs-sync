@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox - test edit!" />
+    <HelloWorld msg="PFTDL"/>
+    <ListStreams msg="Stream Listing"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import ListStreams from "./components/ListStreams";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    ListStreams
   }
 };
 </script>
